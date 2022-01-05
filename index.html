@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Info APP</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<body class="container bg-secondary bg-opacity-10">
+    
+    <br>
+    <div class="card bg-light border border-dark">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-game-title">Game Title</label>
+                        <input type="text" class="form-control" id="new-game-title" placeholder="Title">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-game-genre">Game Genre</label>
+                        <input type="text" class="form-control" id="new-game-genre" placeholder="Genre">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-game-rating">Game Rating</label>
+                        <input type="text" class="form-control" id="new-game-rating" placeholder="Rating">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-game-price">Game Price</label>
+                        <input type="text" class="form-control" id="new-game-price" placeholder="Price">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button id="add" class="btn btn-dark from-control">Create</button>
+            </div>
+        </div>
+    </div>
+
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Title</th>
+            <th>Genre</th>
+            <th>Rating</th>
+            <th>Price</th>
+            <th>Delete</th>
+        </tr>
+
+
+    <script src="index.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
